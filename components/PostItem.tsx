@@ -14,10 +14,14 @@ const PostItem = ({ slug, title, description, date }: PostItemProps) => {
     <article className="flex flex-col gap-2 border-border border-b py-3">
       <div>
         <h2 className="text-2xl font-bold">
-          <Link href={slug}>{title}</Link>
+          <Link href={slug} className="line-clamp-2">
+            {title}
+          </Link>
         </h2>
       </div>
-      <div className="max-w-none text-muted-foreground">{description}</div>
+      <div className="max-w-none text-muted-foreground line-clamp-1">
+        {description}
+      </div>
       <div className="flex justify-between items-center">
         <dl>
           <dt className="sr-only">Published On</dt>
