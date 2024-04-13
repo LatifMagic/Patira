@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Icons } from "./icons";
 import MainNav from "./MainNav";
 import MobileNav from "./MobileNav";
+import ToggleTheme from "./ToggleTheme";
 
 const BlogHeader = () => {
   return (
@@ -30,7 +31,7 @@ const BlogHeader = () => {
               </div>
             </Link>
 
-            {/* <ModeToggle />*/}
+            <ToggleTheme />
             <MobileNav />
           </nav>
         </div>
