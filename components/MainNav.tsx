@@ -18,7 +18,7 @@ const MainNav = () => {
           height={34}
           className="mr-[-8px] "
         />
-        <span className="font-bold text-xl text-foreground">
+        <span className="font-bold text-xl text-foreground/85 ">
           {siteConfig.name}
         </span>
       </Link>

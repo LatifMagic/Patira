@@ -1,10 +1,11 @@
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import React from "react";
-import { buttonVariants } from "./button";
+import { buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { Icons } from "./icons";
-import MainNav from "../MainNav";
+import MainNav from "./MainNav";
+import MobileNav from "./MobileNav";
 
 const BlogHeader = () => {
   return (
@@ -29,8 +30,8 @@ const BlogHeader = () => {
               </div>
             </Link>
 
-            {/* <ModeToggle />
-                <MobileNav /> */}
+            {/* <ModeToggle />*/}
+            <MobileNav />
           </nav>
         </div>
       </div>
