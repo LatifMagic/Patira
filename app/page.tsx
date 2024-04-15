@@ -14,8 +14,8 @@ export default function Home() {
             Hello, I&apos;m Abdelatif
           </h1>
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
-            Welcome to this blog powered by Next.js 14, utilizing Shadcn, Velite
-            and Tailwind
+            Welcome to this blog powered by Next.js 14, utilizing Shadcn and
+            Tailwind
           </p>
           <div className="flex flex-col gap-4 justify-center sm:flex-row">
             <Link
